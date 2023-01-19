@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bog'lanish</title>
+  <link rel="stylesheet" href="./assist____files/css/contact_style.css">
+  <link rel="shortcut icon" href="./assist____files/img/favicon.ico" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <a style="color: rgb(255, 255, 255); width: 100px;height: 30px;border: 3px dotted gold;margin-left: 80px;text-decoration: none;"
+    href="index.html">Asosiy sahifaga qaytish</a>
+  <!-- START FORM BODY -->
+  <div id="container">
+    <header>
+      <h1>Bog'lanish uchun</h1>
+    </header>
+
+    <form method="GET" id="form">
+      <fieldset>
+        <legend style="color: red;">* bilan belgilangan maydonlarni kiritish shart</legend>
+        <br />
+        <div id="part-1">
+          <label for="first-name">Ism</label><br>
+          <input type="name" name="first-name" id="name" required>
+          <br />
+          <label for="last-name">Familya</label><br>
+          <input type="surname" name="last-name" id="surname" required>
+          <br>
+          <label for="phone">Telefon raqamingiz:</label><br>
+          <input type="phone" name="phone" id="phone_number" value="+998 ">
+          <br />
+          <label for="age">Yosh</label><br>
+          <input type="age" name="age" min="0" max="100" id="age" required>
+          <br />
+        </div>
+        <div id="part-3"><br>
+          <label for="rating">Web saytga baxo bering</label><br>
+          <br />
+          <input type="radio" name="rating" id="rating" value="juda yaxshi" tabindex="-1">Juda zo'r
+          <br />
+          <input type="radio" name="rating" id="rating" value="Yaxshi" tabindex="-1">Yaxshi
+          <br />
+          <input type="radio" name="rating" id="rating" value="Yomon" tabindex="-1">Yomon
+          <br /><br />
+          <label for="message">Xabar</label>
+          <br />
+          <textarea rows="5" cols="50" id="message" tabindex="-1"></textarea>
+        </div>
+        <br /><br />
+        <input type="submit" id="submit" name="submitButton" value="Jo'natish">
+        <input type="reset" id="resetButton" value="Kiritilgan malumotlarni tozalash" tabindex="-1">
+
+      </fieldset>
+    </form>
+  </div>
+  <script src="./assist____files/js/assist____.js"></script>
+
+</html>
