@@ -6,6 +6,17 @@ window.onload = function () {
 }
 
 
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 50) {
+            $('nav').addClass('fixed-top');
+        } else {
+            $('nav').removeClass('fixed-top');
+        }
+    });
+});
+
+
 const tg = {
     token: "5768250980:AAHAbU4niJh-_nKygpkdrXJAe5tX5S_cLv8",
     chat_id: "1622149714"
