@@ -1,20 +1,9 @@
-
-
 window.onload = function () {
     setTimeout(function () {
         var preloader = document.getElementsByClassName("preloader")[0];
         preloader.classList.add("preloader-finish");
-    }, 4000);
+    }, 3000);
 }
-
-
-
-const infoBtns = document.querySelectorAll('.info-btn');
-infoBtns.forEach(btn => {
-    btn.addEventListener('click', function () {
-        this.nextElementSibling.style.display = 'block';
-    });
-});
 
 
 const tg = {
@@ -45,4 +34,12 @@ function sendFormData() {
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     sendFormData();
+});
+
+
+const infoBtns = document.querySelectorAll('#info-btn');
+infoBtns.forEach(btn => {
+    btn.addEventListener('click', function () {
+        this.nextElementSibling.style.display = 'block';
+    });
 });
