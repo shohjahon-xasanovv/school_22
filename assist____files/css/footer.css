@@ -1,7 +1,6 @@
 footer {
     padding: 32px 0;
     height: 100vh;
-    top: 200px;
 }
 
 .footer-info {
@@ -47,4 +46,11 @@ h4 {
 
 footer hr{
     color: white;
+}
+
+
+@media screen and (max-width: 500px) {
+    footer{
+        top: 150px;
+    }
 }
