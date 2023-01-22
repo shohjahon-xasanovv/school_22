@@ -17,6 +17,10 @@ nav{
         background-color: rgba(240, 248, 255, 0.39);
     }
 
+    nav{
+        background-color: rgba(128, 128, 128, 0.712);        
+    }
+
     .navbar-nav li a{
         color: white;
         text-decoration: none;
@@ -28,5 +32,19 @@ nav{
         font-weight: bolder;
         color: white;
         top: -5px;
+    }
+
+    nav{
+        position: fixed;
+        z-index: 9999999;
+    }
+
+    .welcome-round{
+        height: 70vh;
+        margin-top: 110px;
+    }
+
+    header h1{
+        top: -100px;
     }
 }

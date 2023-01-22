@@ -74,7 +74,7 @@ html{
 
 .welcome-round h1 {
     color: rgba(255, 255, 255, 0.829) !important;
-    top: 300px;
+    top: 200px;
 }
 
 .img-block img {
@@ -196,7 +196,7 @@ html{
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-    z-index: 99999;
+    z-index: 9999999999;
 }
 
 
