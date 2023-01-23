@@ -308,4 +308,9 @@ html{
     footer{
         margin-top: 200px;
     }
+
+    html{
+        overflow-x: hidden;
+    }
 }
+
