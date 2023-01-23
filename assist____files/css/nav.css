@@ -13,7 +13,7 @@ nav {
 }
 
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:991px) {
     .navbar-toggler {
         background-color: rgb(46, 71, 155);
     }
