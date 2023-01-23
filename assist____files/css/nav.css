@@ -15,7 +15,7 @@ nav {
 
 @media screen and (max-width:820px) {
     .navbar-toggler {
-        background-color: rgba(240, 248, 255, 0.39);
+        background-color: rgb(46, 71, 155);
     }
 
     nav {
@@ -24,10 +24,10 @@ nav {
     }
 
     .navbar-nav li a {
-        color: white;
+        color: rgb(0, 0, 0);
         text-decoration: none;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: bold;
     }
 
     .navbar-toggler-icon p {
