@@ -203,6 +203,7 @@ html{
 .loading {
     display: flex;
     align-items: center;
+    
 }
 
 
@@ -292,21 +293,11 @@ html{
 
 @media screen and (max-width:350px) {
     .principal{
-        margin-top: 200px;
+        margin-top: 50px;
     }
 
     footer{
-        margin-top: 250px;
-    }
-}
-
-@media screen and (max-width:991px) {
-    .principal{
-        margin-top: 150px;
-    }
-
-    footer{
-        margin-top: 200px;
+        margin-top: 80px;
     }
 
     html{
@@ -314,3 +305,19 @@ html{
     }
 }
 
+@media screen and (max-width:991px) {
+    html{
+        overflow-x: hidden;
+    }
+}
+
+
+@media screen and (min-width:991px) {
+    .principal{
+        margin-top: 100px;
+    }
+
+    footer{
+        margin-top: 150px;
+    }
+}

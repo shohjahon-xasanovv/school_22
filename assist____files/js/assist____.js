@@ -54,3 +54,5 @@ infoBtns.forEach(btn => {
         this.nextElementSibling.style.display = 'block';
     });
 });
+
+
